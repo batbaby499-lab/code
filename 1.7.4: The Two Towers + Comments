@@ -1,0 +1,33 @@
+// code that will run to buildtowers 
+function buildtower() {
+	// Write your code here
+    move();
+    turnLeft();
+    putBall();
+    move();
+    putBall();
+    move();
+    putBall();
+	
+}
+main();
+// code that will run to turnRight if true
+function turnRight(){
+    turnLeft();
+    turnLeft();
+    turnLeft();
+
+}
+// code that will run if condition is true
+function main(){
+    buildtower();
+    turnRight();
+    move();
+    turnRight();
+    move();
+    move();
+    turnLeft();
+    buildtower();
+    move();
+    turnRight();
+}
