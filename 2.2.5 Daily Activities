@@ -1,0 +1,26 @@
+function main() {
+  let partOfDay;
+  let time;
+  
+  
+  
+  
+    // Write your code here
+     partOfDay = "morning" ;
+       time = 8;
+    
+    console.log("IN The " + partOfDay + ",  I wake up at " + time +".");
+    
+      partOfDay = "afternoon";
+      time = 12;
+console.log("IN The " +  partOfDay + ",  I eat lunch at " + time +".");
+    
+      partOfDay = "evening";
+      time = 11;
+    console.log("IN The " +  partOfDay + ",  I go to bed at " + time + ".");
+    
+}
+
+
+// Be sure to call the main function here:
+main();
