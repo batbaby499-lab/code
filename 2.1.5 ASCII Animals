@@ -1,0 +1,26 @@
+function main() {
+    // Create your fish here:
+    
+    console.log("Look, a fish!");
+    console.log("><(((('>");
+    
+    
+    
+    console.log(); 
+    // Create your own animal here!
+console.log("Look, a frogs!");
+     console.log(" . __. /\ /\  ");
+                   
+  console.log(" . __.  /\ /\  ");
+               
+              
+                  
+    console.log();
+    // If you'd like, create more animals here!
+ 
+
+
+
+}
+
+main();
