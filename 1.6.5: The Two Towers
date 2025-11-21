@@ -1,0 +1,30 @@
+function buildtower() {
+	// Write your code here
+    move();
+    turnLeft();
+    putBall();
+    move();
+    putBall();
+    move();
+    putBall();
+	
+}
+main();
+function turnAround(){
+    turnLeft();
+    turnLeft();
+    turnLeft();
+
+}
+function main(){
+    buildtower();
+    turnAround();
+    move();
+    turnAround();
+    move();
+    move();
+    turnLeft();
+    buildtower();
+    move();
+    turnAround();
+}
