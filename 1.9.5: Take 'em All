@@ -1,0 +1,11 @@
+function main() {
+    // Loop will repeat 6 times before exiting
+    for (let i = 0; i < 100; i++) {
+	    takeBall();
+    }
+
+    move();
+}
+move();
+
+main();
