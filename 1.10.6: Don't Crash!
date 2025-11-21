@@ -1,0 +1,11 @@
+function main() {
+    //Write your code here
+    frontIsClear();
+}
+main();
+if (frontIsClear()) {
+    move();
+} else {
+     turnLeft();
+     move();
+}
