@@ -1,0 +1,25 @@
+function makepankes(){
+    putBall();
+    putBall();
+    putBall();
+}
+
+function main(){
+     move();
+     makepankes();
+     moveTwice(); 
+     end();
+}
+
+function moveTwice(){
+    move();
+    move();
+}
+main();
+function end (){
+     makepankes();
+     move();
+     move();
+      makepankes();
+      move();    
+}
