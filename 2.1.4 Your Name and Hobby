@@ -1,0 +1,10 @@
+/* This program should print out your 
+ * name, and a hobby you have */
+function main() {
+    // Write your code here
+  
+    console.log("My name is name!");
+    console.log("I like to sleep.");
+}
+
+main();
