@@ -1,0 +1,11 @@
+function main() {
+    // Loop will repeat 32 times before ending
+    for (let i = 0; i < 32; i++) { 
+          turnLeft();
+
+    }
+
+}
+
+
+main();
