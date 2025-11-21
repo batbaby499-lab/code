@@ -1,0 +1,26 @@
+function main() {
+    // Write your code here
+    for(let i = 0; i < 5; i++){
+        move();
+     }
+}   
+
+putBall();
+main();
+
+if (frontIsClear()) {
+    // code that will run if the condition is true
+    turnLeft();
+} else {
+    // code that will run if condition is not true
+    turnLeft();
+    putBall();
+    main();
+}
+turnLeft();
+putBall();
+main();
+turnLeft();
+putBall();
+main();
+turnLeft();
