@@ -1,0 +1,37 @@
+function mario(){
+     move();
+     turnLeft();
+     moveTwice();
+     move();
+     collectcoins(); 
+     end();
+}
+mario();
+
+function collectcoins(){
+    takeBall();
+    takeBall();
+}
+function moveTwice(){
+    move();
+    move();
+}
+function end(){
+    turnLeft();
+     turnLeft();
+     moveTwice();
+     move();
+     turnLeft();
+     moveTwice();
+     turnLeft();
+     moveTwice();
+     move();
+     collectcoins();
+     turnLeft();
+     turnLeft();
+     moveTwice();
+     move();
+     turnLeft();
+}
+move();
+mario();
