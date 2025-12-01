@@ -1,3 +1,3 @@
 # code
 all code 
-for com program
+for comp program
