@@ -1,0 +1,15 @@
+//Declare a const here to represent the cost of a tshirt
+let COST_OF_SHIRT = 20;
+
+function main() {
+    // Ask how many shirts
+    let shirts = readFloat("How many t-shirts? ");
+
+    // Calculate cost
+    let totalCost = COST_OF_SHIRT * shirts;
+
+    // Print total cost
+    console.log(totalCost);
+}
+
+main();
