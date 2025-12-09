@@ -1,0 +1,16 @@
+function main() {
+    // Ask the user for input:
+    let name = readLine("Enter a name:  ");
+    let adjective = readLine("Enter an adjective: ");
+    let verb = readLine("Enter a verb:  ");
+    let number = readInt("Enter a number:  ");
+    let pluralNoun = readLine("Enter a plural noun:  ");
+
+    // Print the story:
+    console.log("Hello " + name + ", nice to meet you!");
+    console.log("Hi " + name + ", it's nice to meet you!");
+    console.log("I didn't realize how " + adjective + " you are.");
+    console.log("Would you like to " + verb + " " + number + " " + pluralNoun + " with me?");
+}
+main();
+// Remember to call the main function here
