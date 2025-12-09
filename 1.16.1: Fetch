@@ -1,0 +1,29 @@
+function main() {
+    // Write your code here
+    turnLeft();
+    moveTwice();
+    move();
+    move();
+      turnAround();
+      turnLeft();
+       moveTwice();
+    takeBall();
+    end();
+  
+    
+    
+}
+function moveTwice(){
+    move();
+    move();
+}
+main();
+function end(){
+    turnAround();
+    moveTwice();
+    turnLeft();
+    moveTwice();
+    moveTwice();
+    putBall();
+    turnLeft();
+}
