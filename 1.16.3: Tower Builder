@@ -1,0 +1,45 @@
+function start(){
+     buildTower();
+       move();
+     comeDown();
+      if(frontIsClear()){
+        move();
+        move();
+        buildTower();
+        move();
+        comeDown();
+        if(frontIsClear()){
+            move();
+        }
+         if (frontIsClear()){
+             move();
+             buildTower();
+             move();
+             comeDown();
+        }
+    }
+    if (frontIsClear()){
+        move();
+        move();
+         buildTower();
+        move();
+        comeDown();
+        move();
+    }
+}
+function comeDown(){
+       turnAround();
+       move();
+      move();
+      move();
+     turnLeft();
+}
+//This lets Karel build one tower
+function buildTower(){
+      turnLeft();
+      putBall();
+      move();
+      putBall();
+      move();
+      putBall();
+}
