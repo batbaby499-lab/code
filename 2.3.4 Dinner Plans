@@ -1,0 +1,16 @@
+function main() {
+	// Write your code here
+	
+	 name = readLine("What is your name? ");
+	let time = readInt ("what time should we meet for dinner?");
+	let user1 = "Karel";
+	console.log("Hi" + user1 + ", I will meet you at " +  time + " o'clock");
+	
+	 name = readLine("What is your name? ");
+	time = readInt ("what time should we meet for dinner?");
+	let user2 = "Tracy";
+	console.log("Hi" + user2 + ", I will meet you at " +  time + " o'clock");
+	
+	
+}
+main();
