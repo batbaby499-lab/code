@@ -1,0 +1,37 @@
+// this code will take from pile already there and move it back 
+function main(){
+    move();
+    while(ballsPresent()) {
+        takeBall();
+        move();
+        putBall();
+        putBall();
+        turnAround();
+        move();
+        turnAround();
+    }
+    move();
+    while(ballsPresent()) {
+        takeBall();
+        turnAround();
+        move();
+        putBall();
+        turnAround();
+        move();
+    }
+    turnAround();
+    move();
+    move();
+    turnAround();
+}
+ 
+function fake2(){
+    move();
+}
+ function fake (){
+     move();
+ }
+ function notreal(){
+     move();
+ }
+ main();
