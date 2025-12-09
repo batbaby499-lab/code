@@ -1,0 +1,9 @@
+function main() {
+	// Write your code here
+	let miles = readLine ("How many miles did you run? ");
+	let minutes = readFloat("How many minutes did it take you? ");
+	let hours = minutes / 60;
+	let speed = miles / hours;
+	console.log(" speed in mph:" + speed);
+}
+main();
