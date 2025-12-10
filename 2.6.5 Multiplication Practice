@@ -1,0 +1,19 @@
+function main() {
+	// Write your code here
+	console.log("Time to practice your multiplication !");
+
+	
+	
+	
+	let lowEnd = readInt("Lowest number you want to multiply: ");
+	let highEnd =readInt ("Lowest number you want to multiply: ");
+	
+	
+	let firstNum =  Randomizer.nextInt(lowEnd, highEnd);
+	let secondNum = Randomizer.nextInt(lowEnd, highEnd);
+	
+	
+	let answer = readInt ("ok! multiply " + firstNum + " *  " + secondNum + ": " );
+	console.log("The correct answer is " + (firstNum * secondNum) + "!");
+}
+main();
