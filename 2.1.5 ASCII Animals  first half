@@ -1,0 +1,8 @@
+function main() {
+    // Create your fish here:
+    
+    console.log("Look, a fish!");
+    console.log("><(((('>");
+    
+    
+    
