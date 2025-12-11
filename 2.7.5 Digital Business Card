@@ -1,0 +1,20 @@
+function main() {
+    // Call your function here
+    printBusinessCard();
+}
+
+// Define your function here
+function printBusinessCard() {
+     console.log("Ada lovelace");
+      console.log("The First Computer Programmer");
+       console.log("Ada_Loves_Coding@codehs.com");
+     
+     
+     
+     
+      console.log("Everyone can program!");
+     
+     
+}
+
+main();
